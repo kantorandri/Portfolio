@@ -1,19 +1,21 @@
     body{
         background: #EFABFF;
-        ;
-    }
-    .container{
-        width: 500px;
-        height: 500px;
     }
     img{
-        width:100px;
-        height:100px;
+        width:200px;
+        height:200px;
         border-radius: 50%;
     }
-    .contact{
-        margin-bottom: 30px;
-        position: initial;
-        padding: 30px;
-
+    .item{
+        background:#EDA2F2;
+        width:500px;
+        height:80px;
+        margin-left:100px;
+        margin-top: 20px;
+        padding: 2px;
+    }
+    .header{
+        margin-top: Opx;
+        display:flex;
+        align-items: self-start;
     }
