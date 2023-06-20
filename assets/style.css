@@ -1,10 +1,20 @@
     body{
         background: #EFABFF;
+        display: flex;
+        align-items: center;
+    }
+    .header{
+        margin-top: Opx;
+        display:flex;
+        align-items: self-start;
     }
     img{
         width:200px;
         height:200px;
         border-radius: 50%;
+        position: relative;
+        display: inline;
+        top:5px
     }
     .item{
         background:#EDA2F2;
@@ -14,8 +24,23 @@
         margin-top: 20px;
         padding: 2px;
     }
-    .header{
-        margin-top: Opx;
+    .me{
+        background: #EDA2F2;
+        position: initial;
+        width:500px;
+        height:80px;
+        margin-left:250px;
+        margin-top: 0px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .container{
         display:flex;
-        align-items: self-start;
+        flex-wrap: wrap;
+        flex-direction:row-reverse;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: space-evenly;
+        margin: 0px;
     }
