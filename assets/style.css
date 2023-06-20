@@ -38,9 +38,12 @@
         margin-top: 20px;
         padding: 2px;
         position: relative;
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction:reverse;
+        display: flex;
+        flex-wrap:wrap-reverse ;
         align-items: center;
-        justify-content: space-evenly;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+    .container-body{
+       
     }
