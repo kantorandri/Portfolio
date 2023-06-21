@@ -60,8 +60,9 @@ p{
 }
 .item-3{
     background:#e6a3cc ;
-    width:100px;
-    height:100px;
+    width:50px;
+    height:50px;
     margin:5px;
+    padding: 50px;
 }
 
