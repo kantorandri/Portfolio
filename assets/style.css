@@ -58,4 +58,10 @@ p{
     justify-content: space-evenly;
     background: radial-gradient(circle closest-corner at 500px 500px,#c93774,#43214b, #792e60);
 }
+.item-3{
+    background:#e6a3cc ;
+    width:100px;
+    height:100px;
+    margin:5px;
+}
 
