@@ -48,4 +48,14 @@ p{
     justify-content: space-evenly;
     background: radial-gradient(circle closest-corner at 500px 500px,#792e60,#c93774, #421f49);
 }
+.container-passion{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background: radial-gradient(circle closest-corner at 500px 500px,#c93774,#43214b, #792e60);
+}
 
