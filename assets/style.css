@@ -65,4 +65,13 @@ p{
     margin:5px;
     padding: 50px;
 }
-
+.container-langue{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background: radial-gradient(circle closest-corner at 500px 500px,#c93774, #792e60,#43214b);
+}
