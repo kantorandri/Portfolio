@@ -38,3 +38,14 @@ p{
     justify-content: space-evenly;
     background: radial-gradient(circle closest-corner at 500px 500px,#EFABFF,#792e60,#c93774);
 }
+.container-etude{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background: radial-gradient(circle closest-corner at 500px 500px,#792e60,#c93774, #421f49);
+}
+}
