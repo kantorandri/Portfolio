@@ -2,4 +2,191 @@
     font-family: Arial, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     padding: 0.25%;
   }
+  #page {
+    padding: 0;
+    border-radius: 5px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    line-height: 3.5vw;
+  }
+  header {
+    position: relative;
+    background-image: url(./img/imgHeader.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 55px 0;
+    border-radius: 5px;
+    clip-path: polygon(100% 0, 100% 86%, 50% 100%, 0 89%, 0 0);
+    overflow: hidden;
+  }
+  header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #00000052;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  body {
+    overflow-x: hidden;
+    margin: auto;
+  }
+  p {
+    line-height: 2.5vw;
+    font-size: calc(
+      0.25em + 1vw
+    );
+  }
+  .imgKanto {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  #photo {
+    border: 4px solid transparent;
+    outline: 4px solid #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  #nom {
+    position: relative;
+    padding: 0px;
+    margin: 50px;
+    font-size: 2.5vw;
+    color: #fff;
+    z-index: 2;
+  }
+  .card {
+    width: 75%;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 2px #00000029;
+  }
+  @media screen and (max-width: 400px) {
+    .card {
+      width: 95%;
+    }
+    #nom {
+      font-size: 4.5vw;
+    }
+  }
+  .card article h2 {
+    font-size: calc(0.75em + 1vw);
+  }
+  
+  article {
+    width: 45%;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .presentation {
+    width: 90%;
+    margin-bottom: 0px;
+  }
+  
+  .liste-article {
+    list-style-position: outside;
+    margin-left: 15px;
+    font-size: calc(0.25em + 1vw);
+  }
+  
+  strong {
+    margin-right: 2px;
+  }
+  
+  .grid-container {
+    display: grid;
+    text-align: center;
+    background: rgb(224, 224, 224); 
+    grid-template-columns: 32% 32% 32%;
+    gap: 6%;
+    row-gap: 45px;
+    padding: 92px;
+  }
+  
+  .loisir {
+    background-image: url(./img/imgLoisir.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    overflow: hidden;
+  }
+  
+  .footerGap {
+    column-gap: 1px;
+  }
+  .grid-container p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .titre_grid {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-transform: uppercase;
+    font-size: calc(0.75em + 1vw);
+  }
+  
+  .icone {
+    width: 70px;
+    max-width: 20%;
+    margin-bottom: 5px;
+  }
+  
+  .hobby {
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: calc(0.25em + 1vw);
+  }
+  
+  .content {
+    text-align: justify;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer .grid-container {
+    background: none;
+  }
+  footer h2 {
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    font-size: calc(0.75em + 1vw);
+  }
+  
+  footer section div h3 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-size: calc(0.5em + 0.75vw);
+  }
+  
+  footer section div p {
+    margin-top: 0px;
+    line-height: 30px;
+  }
+
+  #liste-footer {
+    list-style-position: inside;
+    font-size: calc(0.25em + 1vw);
+  }
   
