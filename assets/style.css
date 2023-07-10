@@ -201,3 +201,26 @@
     color: black;
     background: #fff;
   }
+  .darkcontainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 10vh;
+    width: 10%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background:black;
+    color:#fff
+  }
+  .switch{
+    position:absolute;
+    top:25px;
+    right: 25px;
+    height:40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+  }
